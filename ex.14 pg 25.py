@@ -1,4 +1,4 @@
-n=eval(input("Dati matricea patratica="))
+n=eval(input("Dati matricea patratica de tipul [[...],[...],[...]]="))
 s=0
 if ((len(n)>=2) and (len(n)<=10)):
     for b in range(0,len(n)):
